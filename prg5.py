@@ -1,0 +1,22 @@
+mylist=[1,2,3,4,5,'6']
+print(mylist)
+fruits=["apple",
+    "banana","pear","stawberry"]
+print(fruits[:3])
+print(fruits[::-1])
+print(fruits[-1])
+
+chara=['a','b','d','d']
+print(chara)
+chara[2]='c'
+print(chara)
+print(len(chara))
+chara.append('e')
+print(chara)
+chara.remove('e')
+chara.pop(3)
+print(chara)
+chara.sort()
+print(chara)
+chara.reverse()
+print(chara)
